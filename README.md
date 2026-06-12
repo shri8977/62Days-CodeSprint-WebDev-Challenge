@@ -1,6 +1,12 @@
 # 62Days-CodeSprint-WebDev-Challenge
-🚀 62 Days HTML, CSS, JavaScript &amp; MERN Stack Challenge A complete beginner-to-advanced open-source roadmap.
 
+🚀 **62Days-CodeSprint-WebDev-Challenge** is a comprehensive beginner-to-advanced web development roadmap designed to help learners master HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, and the complete MERN Stack through hands-on coding and real-world projects.
+
+This challenge follows a structured 62-day learning journey where participants build their skills step by step, starting from web development fundamentals and progressing toward full-stack application development. Each day includes practical tasks, coding exercises, mini-projects, and project-based learning to strengthen problem-solving abilities and development expertise.
+
+Whether you're a beginner starting your web development journey or an aspiring full-stack developer looking to enhance your skills, this repository provides a clear roadmap, learning resources, project implementations, and open-source contribution opportunities to help you become industry-ready.
+
+By the end of this challenge, participants will have built multiple projects, gained practical experience with modern web technologies, and developed a strong portfolio showcasing their frontend and full-stack development skills.
 
 
 
