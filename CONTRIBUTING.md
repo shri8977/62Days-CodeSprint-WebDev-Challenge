@@ -14,93 +14,143 @@ For architecture, setup, and onboarding — check [.project-docs/LEARN.md](.proj
 
 ## 📌 Contribution Philosophy
 
-Contributing to open source means **collaboration, respect, and growth**.  
-Here’s what you can contribute to:
+Contributing to **62Days-CodeSprint-WebDev-Challenge** means learning, building, collaborating, and helping create one of the largest collections of web development projects. 🚀
 
-- 🐞 **Bug Fixes**
-- ✨ **New Features / Modules**
-- 🎨 **UI/UX Enhancements**
-- 📚 **Documentation Updates**
-- 🧪 **Test Case Additions**
-- 🤖 **AI Dataset / Prompt Improvements**
-- 🔒 **Security & Performance Optimizations**
+Here's what you can contribute:
 
-> 🧭 Whether you’re a beginner or a pro — DevElevate is the perfect space to learn, build, and grow together.
+* 🌐 **HTML Projects**
+* 🎨 **CSS Projects**
+* ⚡ **JavaScript Projects**
+* ⚛️ **React Applications**
+* 🚀 **Node.js Projects**
+* 🍃 **MongoDB Projects**
+* 💻 **MERN Stack Applications**
+* 📱 **Responsive Websites**
+* 🏆 **Advanced Full Stack Projects**
+* 📚 **Documentation Improvements**
+
+> 🧭 Whether you're a beginner or an experienced developer, this challenge is designed to help you learn by building real projects and showcasing your skills.
 
 ---
 
-## 🚀 Quick Start — Step-by-Step Guide
+# 🚀 Quick Start — Step-by-Step Guide
 
 ### 1. 🌟 Star the Repository
 
-Show your support by starring ⭐ the repo. It motivates contributors!
+Support the project by giving it a star ⭐.
 
 ### 2. 🍴 Fork the Repository
 
-Click on the **Fork** button in the top-right corner of this repository.
+Click the **Fork** button at the top-right corner of the repository.
 
 ### 3. 📥 Clone Your Fork
 
 ```bash
-git clone https://github.com/<your-username>/Dev-Elevate.git
-cd Dev-Elevate
-````
+git clone https://github.com/<your-username>/62Days-CodeSprint-WebDev-Challenge.git
 
-### 4. 📦 Install Dependencies
-
-The project consists of two parts — **Client (Frontend)** and **Server (Backend)**.
-
-**Frontend Setup (React + Vite):**
-
-```bash
-cd DevElevate/Client
-npm install
-```
-
-**Backend Setup (Node.js + Express):**
-
-```bash
-cd DevElevate/Server
-npm install
+cd 62Days-CodeSprint-WebDev-Challenge
 ```
 
 ---
 
-### 5. ⚙️ Run in Development Mode
+### 4. 📂 Choose the Appropriate Project Folder
 
-Run both client and server in separate terminals.
+Upload your project inside the correct category.
 
-**Backend:**
+Example:
 
-```bash
-cd DevElevate/Server
-node index.js
+```text
+Project
+│
+├── HTML,CSS,JS
+│   ├── Ecommerce Website
+│   ├── Ganpati Bappa
+│
+├── MERN
+│   ├── DR Homeopathy Clinic
+│   ├── Zerodha Clone
 ```
-
-**Frontend:**
-
-```bash
-cd DevElevate/Client
-npm run dev
-```
-
-💡 The app usually runs at:
-
-* Frontend → `http://localhost:5173`
-* Backend → `http://localhost:5000` (or as defined in `.env`)
 
 ---
 
-### 6. 🌍 Environment Configuration (Optional)
+### 5. 💻 Add Your Project
 
-If needed, configure your `.env` file:
+Make sure your project includes:
+
+✅ Source Code
+
+✅ README.md
+
+✅ Project Screenshot
+
+✅ Proper Folder Structure
+
+✅ Working Application
+
+---
+
+### 6. 🚫 Before Creating a Pull Request
+
+Please verify:
+
+❌ No .env files
+
+❌ No API keys
+
+❌ No Personal Information
+
+❌ No node_modules folder
+
+❌ No Merge Conflicts
+
+❌ No Broken Code
+
+✅ Project Runs Successfully
+
+✅ Clean Code Structure
+
+✅ Proper Documentation
+
+---
+
+### 7. 📤 Commit Your Changes
 
 ```bash
-cd DevElevate/Server
-cp .env.sample .env
+git add .
+git commit -m "Added My Project"
+git push origin main
 ```
 
-Edit the `.env` file with your database keys, tokens, etc.
+---
+
+### 8. 🔥 Create a Pull Request
+
+Submit a Pull Request with:
+
+* Project Name
+* Technology Used
+* Short Description
+* Screenshot (if available)
+
+The Project Admin Team will review your submission and provide feedback if needed.
+
+---
+
+## 🎯 Contribution Goal
+
+We aim to collect:
+
+🏆 200+ Quality Projects
+
+👨‍💻 Hundreds of Contributors
+
+🌟 Beginner to Advanced Projects
+
+🚀 A Powerful Open Source Learning Repository
+
+Build amazing projects, submit multiple contributions, and help us create an incredible collection of web development projects.
+
+### 💻 Happy Coding & Happy Contributing! 🚀🔥
 
 ---
 
@@ -155,23 +205,13 @@ git push origin main
 
 ---
 
-## 🧩 What Can You Contribute?
-
-| Area              | You Can Contribute                                         |
-| ----------------- | ---------------------------------------------------------- |
-| 🖥️ Frontend      | Responsive design, dark mode, new components, animations   |
-| ⚙️ Backend        | API enhancements, authentication, performance optimization |
-| 🤖 AI Engine      | Smart recommendations, chatbot logic, dataset curation     |
-| 🗂️ Documentation | Guides, tutorials, GIFs, flow diagrams                     |
-| 🧩 Tools          | Resume Builder, Project Tracker, Mentor Dashboard modules  |
-
 💥 You can also propose **new modules, gamification features, or API integrations**!
 
 ---
 
 ## 🧠 Issue Reporting Guide
 
-1. Visit [Issues](https://github.com/abhisek2004/Dev-Elevate/issues)
+1. Visit [Issues](https://github.com/abhisek2004/62Days-CodeSprint-WebDev-Challenge/issues)
 2. Check if the issue already exists
 3. Use clear titles & descriptions
 4. Add labels (`bug`, `feature`, `good first issue`)
