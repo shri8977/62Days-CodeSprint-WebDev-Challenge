@@ -594,6 +594,33 @@ Every contributor helps grow this community.
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
+## 👨‍🏫 Project Mentors
+
+<div align="center">
+
+| 👨‍🏫 Mentor           | 💻 GitHub                                   | 💼 LinkedIn                                                    |
+| ---------------------- | ------------------------------------------- | -------------------------------------------------------------- |
+| 🚀 **Meet Arora**      | [GitHub](https://github.com/meetarora10)    | [LinkedIn](https://www.linkedin.com/in/meet-arora-603682296)   |
+| 🚀 **Mudit Khater**    | [GitHub](https://github.com/mudit108-code)  | [LinkedIn](https://www.linkedin.com/in/mudit-khater-6a3931266) |
+| 🚀 **Parthiba Naskar** | [GitHub](https://github.com/parthibanaskar) | [LinkedIn](https://www.linkedin.com/in/parthibanaskar)         |
+
+</div>
+
+---
+
+### 🌟 Mentorship Team
+
+💡 Guiding contributors throughout the **62Days-CodeSprint-WebDev-Challenge**
+
+🚀 Supporting project development and best practices
+
+🤝 Helping contributors learn, build, and grow in open source
+
+🔥 Building an amazing community of developers together
+
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
 # 👨‍💻 About Admin
 
 <img align="right" alt="Coding" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
