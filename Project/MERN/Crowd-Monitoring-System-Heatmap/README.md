@@ -18,7 +18,7 @@
   * [🖧 Diagram](#diagram)
   * [📝 Steps](#steps)
 * <b>[📁 Project Structure](#project-structure)</b>
-* <b>[🚀 How To Run](#how-to-run)</b>
+* <b>[🚀 How To Run](#-how-to-run)</b>
 * <b>[✅ Final Notes](#final-notes)</b>
 * <b>[📜 License](#license)</b>
 
