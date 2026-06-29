@@ -15,6 +15,8 @@ import Analytics from './components/Analytics/Analytics';
 import AdminPanel from './components/Admin/AdminPanel';
 import StudyPlannerPage from './pages/StudyPlannerPage';
 import { StudyProvider } from './context/StudyContext';
+import TeamFormationPage from './pages/TeamFormationPage';
+import { TeamProvider } from './context/TeamContext';
 
 import TradingModal from './components/Trading/TradingModal';
 
@@ -69,8 +71,8 @@ const AppContent: React.FC = () => {
         return <Analytics />;
       case 'admin':
         return user.role === 'admin' ? <AdminPanel /> : <Dashboard />;
-      case 'study-planner':
-        return <StudyPlannerPage />;
+      case 'team-formation':
+        return <TeamFormationPage />;
       default:
         return <Dashboard />;
     }
@@ -112,7 +114,9 @@ function App() {
     <AuthProvider>
       <TradingProvider>
         <StudyProvider>
-          <AppContent />
+          <TeamProvider>
+            <AppContent />
+          </TeamProvider>
         </StudyProvider>
       </TradingProvider>
     </AuthProvider>
