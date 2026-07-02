@@ -551,19 +551,19 @@ color: var(--text);
   }
 
   // ── Input listeners ───────────────────────────────────────────────
-  let timer;
+let timerA, timerB;
 
-  ia.addEventListener('input', e => {
-    [pA] = parse(e.target.value, sa);
-    clearTimeout(timer);
-    timer = setTimeout(render, 220);
-  });
+ia.addEventListener('input', e => {
+  [pA] = parse(e.target.value, sa);
+  clearTimeout(timerA);
+  timerA = setTimeout(render, 220);
+});
 
-  ib.addEventListener('input', e => {
-    [pB] = parse(e.target.value, sb);
-    clearTimeout(timer);
-    timer = setTimeout(render, 220);
-  });
+ib.addEventListener('input', e => {
+  [pB] = parse(e.target.value, sb);
+  clearTimeout(timerB);
+  timerB = setTimeout(render, 220);
+});
 
   toggleBtn.addEventListener('click', () => {
     hideUnch = !hideUnch;
