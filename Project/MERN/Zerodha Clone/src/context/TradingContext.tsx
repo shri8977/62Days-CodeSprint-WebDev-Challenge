@@ -86,6 +86,7 @@ export const TradingProvider: React.FC<TradingProviderProps> = ({ children }) =>
   };
 
   const buyStock = async (symbol: string, quantity: number): Promise<boolean> => {
+    if (!Number.isFinite(quantity) || quantity <= 0) return false;
     const stock = stocks.find(s => s.symbol === symbol);
     if (!stock) return false;
     
@@ -152,6 +153,7 @@ export const TradingProvider: React.FC<TradingProviderProps> = ({ children }) =>
   };
 
   const sellStock = async (symbol: string, quantity: number): Promise<boolean> => {
+    if (!Number.isFinite(quantity) || quantity <= 0) return false;
     const stock = stocks.find(s => s.symbol === symbol);
     const holding = holdings.find(h => h.symbol === symbol);
     
