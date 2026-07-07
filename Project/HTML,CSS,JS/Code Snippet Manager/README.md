@@ -1,21 +1,27 @@
+<div align="center">
+
 ## 🔖 Code Snippet Manager
 
-<div align="center">
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/highlight.js-F7DF1E?style=for-the-badge&logo=highlight.js&logoColor=black" alt="Highlight.js"/>
+  <br><br>
+  <img width="700" height=auto alt="Image" src="https://github.com/user-attachments/assets/8c0b8e8b-ce62-4fa8-b8ae-2fde366308fc" />
+  <img width="700" height=auto alt="Image" src="https://github.com/user-attachments/assets/3a30ecd0-58e1-4e02-b3e1-d3918dc93ff8" />
+  <img width="700" height=auto alt="Image" src="https://github.com/user-attachments/assets/26bdf86b-9d78-4e8d-adf8-b52d7bff13f1" />
+
 </div>
 
 ---
 
-## 📖 Overview
+### 📖 Overview
 
 This is a self-contained, single-file, offline-first web application for managing code snippets. It allows you to store, categorize, search, and retrieve code snippets with syntax highlighting, all without needing an internet connection. All data is stored directly in your browser's `localStorage`.
 
 ---
 
-## ✨ Features
+### ✨ Features
 
 *   **Offline First**: Works entirely in your browser. All snippets are saved in `localStorage`.
 *   **CRUD Operations**: Easily Add, Edit, and Delete snippets.
@@ -32,14 +38,13 @@ This is a self-contained, single-file, offline-first web application for managin
 
 ---
 
-## 🚀 How To Run
+### 🚀 How To Run
 
 Running this application is as simple as it gets.
 
-1.  **Download the File**:
-    Save the `code-snippet-manager.html` file to your local machine.
+1.  **Clone this repo**
 
-2.  **Open in Browser**:
-    Open the downloaded HTML file in any modern web browser (like Chrome, Firefox, Safari, or Edge).
+3.  **Open in Browser**:
+    Open the downloaded HTML file code-snippet-manager.html in any modern web browser (like Chrome, Firefox, Safari, or Edge).
 
 That's it! You can now start adding and managing your code snippets.
