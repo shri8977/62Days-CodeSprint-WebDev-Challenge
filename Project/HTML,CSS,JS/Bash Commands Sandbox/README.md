@@ -1,12 +1,18 @@
 <div align="center">
 
-## Bash Commands Sandbox
+## 🐚 Bash Commands Sandbox
 
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
 
 </div>
+
+<br>
+
+<img width="1619" height="925" alt="image" src="https://github.com/user-attachments/assets/5ca6ecb8-f8e5-4a67-9394-90b87e50b1e7" />
+
+<img width="1619" height="925" alt="image" src="https://github.com/user-attachments/assets/58797d1d-adfc-438a-8e18-57f2e85b896f" />
 
 ---
 
