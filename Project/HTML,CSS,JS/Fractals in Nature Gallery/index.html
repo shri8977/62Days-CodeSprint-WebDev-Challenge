@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fractals in Nature</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a class="title-link" href="index.html" aria-label="Go to home">
+      <h1 class="site-title">Fractals in Nature</h1>
+    </a>
+    
+    <nav class="site-nav" aria-label="Primary">
+      <a class="nav-link" href="plants.html">Plants</a>
+      <a class="nav-link" href="geology.html">Geology</a>
+      <a class="nav-link" href="weather.html">Weather</a>
+    </nav>
+  </header>
+
+  <main class="gallery-main">
+    <section class="gallery-shell">
+      <div class="gallery-top">
+        <h2 class="gallery-heading">All Fractals in One Gallery</h2>
+      </div>
+
+      <div class="slideshow" id="home-slideshow" role="region" aria-label="All fractals slideshow">
+        <button class="slide-btn" type="button" data-role="prev" aria-label="Previous image">&#9664;</button>
+
+        <figure class="slide-viewport" style="margin:0;">
+          <img data-role="image" class="slide-image" alt="Fractals" />
+          <figcaption data-role="caption" class="slide-caption"></figcaption>
+        </figure>
+
+        <button class="slide-btn" type="button" data-role="next" aria-label="Next image">&#9654;</button>
+      </div>
+
+      <p class="footer-note">Tip: Use the arrows to move to the next/previous photo.</p>
+    </section>
+  </main>
+
+  <script src="slideshow.js"></script>
+  <script>
+    const allFractalsImages = [
+      // Plants
+      { src: "plants/1_81RpR-RnJ1vbTSyOI-nbaA@2x.jpg" },
+      { src: "plants/6-67b1af15a1aa44e18b44699595366e58.jpg" },
+      { src: "plants/1520076677844.jpeg" },
+      { src: "plants/d3fa6887c1ebf89016ceb334e8c237d4.jpg" },
+      { src: "plants/images (1).jpeg" },
+      { src: "plants/images (2).jpeg" },
+      { src: "plants/images (3).jpeg" },
+      { src: "plants/images.jpeg" },
+
+      // Geology
+      { src: "geology/49920268306_131c18e06a_b.jpg" },
+      { src: "geology/c67663ba4548af10b61b517a8876cbb1.jpg" },
+      { src: "geology/earth_layers_resized.jpg" },
+      { src: "geology/images (1).jpeg" },
+      { src: "geology/images (2).jpeg" },
+      { src: "geology/images (4).jpeg" },
+      { src: "geology/images.jpeg" },
+      { src: "geology/natural-fractal-textures-stockcake.jpg" },
+
+      // Weather
+      { src: "weather/electric-storm-fractals-stockcake.jpg" },
+      { src: "weather/fractals-rock-cracks-crop-1280x1791.jpg" },
+      { src: "weather/images (1).jpeg" },
+      { src: "weather/images (2).jpeg" },
+      { src: "weather/images.jpeg" },
+      { src: "weather/milky-way-galaxy-alfred-pasieka.jpg" },
+      { src: "weather/Screenshot from 2026-07-12 21-23-25.png" }
+    ];
+
+    window.initFractalsSlideshow({
+      images: allFractalsImages,
+      containerSelector: "#home-slideshow",
+      intervalMs: 4000
+    });
+  </script>
+</body>
+</html>
+
