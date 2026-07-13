@@ -1,23 +1,27 @@
-# Free Online Tech Course Guide
-
 <div align="center">
+  
+  ## Free Online Tech Courses Guide
+
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  
 </div>
 
 <br>
 
 A curated guide to free, high-quality online tech courses from various providers. Built with a clean, modern, and responsive design.
 
+<img width="1559" height="858" alt="image" src="https://github.com/user-attachments/assets/0e6c566d-f62c-4393-b38a-29556ce7c0a7" />
+
 ---
 
-## 📜 Overview
+### 📜 Overview
 
 This project is a simple, single-page static website that presents a collection of free online tech courses in a clear and accessible card-based layout. It's designed to help users quickly discover learning opportunities in fields like IT, networking, and wireless technologies.
 
 ---
 
-## ✨ Features
+### ✨ Features
 
 *   **Clean & Modern UI**: A dark-themed design with custom fonts (`Rubik Mono One` and `Titillium Web`) for readability and style.
 *   **Responsive Card Layout**: The course grid adapts to different screen sizes, providing a great experience on desktop and mobile.
@@ -27,7 +31,7 @@ This project is a simple, single-page static website that presents a collection 
 
 ---
 
-## 🚀 How To Run
+### 🚀 How To Run
 
 To get a local copy up and running, follow these simple steps.
 
@@ -48,3 +52,9 @@ To get a local copy up and running, follow these simple steps.
     # On Windows
     start index.html
     ```
+
+---
+
+### Contributing
+
+- Contributors are welcome to make changes to this project by adding more links to online courses, etc.
