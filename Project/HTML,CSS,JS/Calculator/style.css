@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*, *::before, *::after
+{
+  box-sizing: border-box;
+  font-weight: normal;
+  padding:0;
+  margin:0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+:root {
+    --bgcolor: #9f4ebd;
+    --textcolor: white;
+    --outputbg: rgba(37, 18, 47, 0.6);
+    --prevoperand: rgba(255, 255, 255, 0.75);
+    --btn1color: #512697;
+    --btn1hover: #7343bc;
+    --btn2color: rgba(108, 23, 157, 0.801);
+    --btn2hover: #9422a3;
+}
+
+.light-mode {
+    --bgcolor: #cc7be9;
+    --textcolor: black;
+    --outputbg: rgba(255, 255, 255, 0.6);
+    --prevoperand: rgba(0, 0, 0, 0.75);
+    --btn1color: rgb(178, 114, 239);
+    --btn1hover: #ac49cd;
+    --btn2color: rgba(218, 189, 242, 0.75);
+    --btn2hover: #d270f2;
+}
+
+body
+{
+    background-color: var(--bgcolor);
+    overflow: hidden;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.calculator
+{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(8, 69px);
+}
+
+.history .image {
+    visibility: hidden;
+}
+
+.calculator > button
+{
+    margin: 3px;
+    font-size: 1.5rem;
+    outline: none;
+    border-radius: 20px 20px;
+}
+
+#span-two
+{
+    grid-column: span 2;
+}
+
+.output
+{
+    margin: 7px;
+    grid-column: 1 / -1;
+    grid-row: 1 / 3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 30px 30px;
+    background-color: var(--outputbg);
+    color: var(--textcolor);
+}
+
+.output .previous-operand
+{
+    font-size: 1.5rem;
+    color: var(--prevoperand);
+}
+  
+.output .current-operand
+{
+    font-size: 2rem;
+}
+
+.btn1
+{
+    background-color: var(--btn1color);
+    border: 0.5px solid var(--btn1color);
+    box-shadow: -2px 5px 15px var(--btn1color);
+    color: var(--textcolor);
+}
+.btn2  
+{
+    background-color:var(--btn2color);
+    border: 0.5px solid var(--btn2color);
+    box-shadow: -2px 5px 15px var(--btn2color);
+    color: var(--textcolor);
+}
+
+.btn1:hover
+{
+    background-color: var(--btn1hover);
+}
+.btn2:hover
+{
+    background-color: var(--btn2hover);
+}
+
+.disabled
+{
+    cursor: not-allowed;
+    background-color: var(--btn2hover);
+}
+
+
+#history {
+    background-color: var(--btn1hover);
+    border-radius: 15px;
+    align-self: center;
+    margin-left: 25%;
+    padding: 15px;
+    width: 100%;
+    height: 60%;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    overflow: scroll;
+}
+
+@media(max-width: 750px) {
+    body {
+        overflow: auto;
+    }
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 80px;
+    }
+
+    #history {
+        margin: 20px;
+        width: 90%;
+        height: 200px;
+    }
+
+    .calculator {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
