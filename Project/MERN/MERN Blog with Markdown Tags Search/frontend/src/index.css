@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Literata", Georgia, serif;
+  --font-sans: "Sora", system-ui, sans-serif;
+  --color-ink: #102a43;
+  --color-ocean: #0b6e4f;
+  --color-sea: #14919b;
+  --color-foam: #e8f6f5;
+  --color-paper: #f5f8fa;
+  --color-muted: #627d98;
+  --color-accent: #d64545;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background:
+    radial-gradient(ellipse 70% 45% at 0% 0%, rgba(20, 145, 155, 0.14), transparent 55%),
+    radial-gradient(ellipse 50% 40% at 100% 10%, rgba(11, 110, 79, 0.1), transparent 50%),
+    linear-gradient(180deg, #f5f8fa 0%, #eef5f4 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.prose-blog h1,
+.prose-blog h2,
+.prose-blog h3 {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+.prose-blog p,
+.prose-blog ul,
+.prose-blog ol {
+  line-height: 1.75;
+  color: #243b53;
+  margin-bottom: 1em;
+}
+
+.prose-blog a {
+  color: var(--color-sea);
+  text-decoration: underline;
+}
+
+.prose-blog code {
+  background: #e0f2f1;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.35rem;
+  font-size: 0.9em;
+}
+
+.prose-blog pre {
+  background: #102a43;
+  color: #f0f4f8;
+  padding: 1rem;
+  border-radius: 0.85rem;
+  overflow-x: auto;
+  margin-bottom: 1.25em;
+}
+
+.prose-blog pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+}
+
+.prose-blog blockquote {
+  border-left: 3px solid var(--color-sea);
+  padding-left: 1rem;
+  color: var(--color-muted);
+  margin: 1.25em 0;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.4s ease-out both;
+}
