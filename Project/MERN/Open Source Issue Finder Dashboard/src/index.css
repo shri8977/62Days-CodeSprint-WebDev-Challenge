@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --color-ink: #0f1c17;
+  --color-moss: #1a5c45;
+  --color-leaf: #2d8a66;
+  --color-mint: #e8f5ef;
+  --color-sand: #f3efe6;
+  --color-clay: #c45c26;
+  --color-stone: #5c6b64;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background:
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(45, 138, 102, 0.18), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(196, 92, 38, 0.1), transparent 50%),
+    linear-gradient(165deg, #f7f4ed 0%, #eef6f1 45%, #f3efe6 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.45s ease-out both;
+}
+
+.stagger-1 {
+  animation-delay: 0.05s;
+}
+.stagger-2 {
+  animation-delay: 0.1s;
+}
+.stagger-3 {
+  animation-delay: 0.15s;
+}
+
+.skeleton {
+  animation: pulse-soft 1.4s ease-in-out infinite;
+  background: linear-gradient(90deg, #dce8e1, #c9ddd3, #dce8e1);
+  background-size: 200% 100%;
+  border-radius: 0.75rem;
+}
