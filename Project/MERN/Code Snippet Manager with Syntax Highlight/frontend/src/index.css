@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import "highlight.js/styles/atom-one-light.css";
+
+@theme {
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-ink: #1a1f36;
+  --color-muted: #5c657a;
+  --color-paper: #f4f6fb;
+  --color-surface: #ffffff;
+  --color-line: #d8dee9;
+  --color-ember: #e85d04;
+  --color-ember-soft: #fff1e6;
+  --color-tide: #2a9d8f;
+  --color-tide-soft: #e6f6f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background:
+    radial-gradient(ellipse 60% 40% at 8% 0%, rgba(232, 93, 4, 0.12), transparent 55%),
+    radial-gradient(ellipse 45% 35% at 100% 5%, rgba(42, 157, 143, 0.12), transparent 50%),
+    linear-gradient(165deg, #f7f8fc 0%, #eef2f8 55%, #e8eef6 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-soft {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-rise {
+  animation: rise-in 0.45s ease-out both;
+}
+
+.animate-fade {
+  animation: fade-soft 0.35s ease-out both;
+}
+
+.hljs {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.code-panel {
+  background: #f8fafc;
+  border: 1px solid var(--color-line);
+  border-radius: 0.85rem;
+  overflow: hidden;
+}
+
+.code-panel pre {
+  margin: 0;
+  padding: 1rem 1.15rem;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.65;
+}
