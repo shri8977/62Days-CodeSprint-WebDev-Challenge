@@ -5,9 +5,14 @@
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 
+  ---
+  
+  <img width="1609" height="923" alt="image" src="https://github.com/user-attachments/assets/f70558dd-5ada-46bc-9245-5f83a8d78627" />
+
 </div>
 
-A single-page collection of pastel-themed CSS animations. Each animation has its own card with:
+### A single-page collection of pastel-themed CSS animations. Each animation has its own card with:
+
 - a live preview
 - the animation’s CSS code
 - a **Copy CSS** button so you can paste it into your own project
