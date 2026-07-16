@@ -40,7 +40,7 @@ git clone <repo-url>
 
 2. Navigate to the folder:
 ```bash
-cd Pastel-CSS-Animation-Collection
+cd CSS-Animation-Collection---Pastel
 ```
 
 3. Open `index.html` in your browser.
