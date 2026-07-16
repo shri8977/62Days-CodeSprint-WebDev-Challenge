@@ -1,0 +1,52 @@
+export const THEMES = {
+  meadow: {
+    id: 'meadow',
+    label: 'Meadow',
+    bg: '#F4F7F5',
+    ink: '#102A2A',
+    muted: '#5A6B66',
+    accent: '#1D9A6C',
+    accentSoft: '#E4F6EE',
+    panel: '#FFFFFF',
+    border: '#D5E0DB',
+  },
+  midnight: {
+    id: 'midnight',
+    label: 'Midnight',
+    bg: '#0F1C2E',
+    ink: '#F4F7FB',
+    muted: '#9AA8B8',
+    accent: '#3DBE9A',
+    accentSoft: '#16362F',
+    panel: '#16263A',
+    border: '#24354A',
+  },
+  paper: {
+    id: 'paper',
+    label: 'Paper',
+    bg: '#FFF8F0',
+    ink: '#1C1917',
+    muted: '#78716C',
+    accent: '#E4572E',
+    accentSoft: '#FCEAE4',
+    panel: '#FFFFFF',
+    border: '#E7E0D8',
+  },
+  ocean: {
+    id: 'ocean',
+    label: 'Ocean',
+    bg: '#EAF4F8',
+    ink: '#0C2340',
+    muted: '#5C6B7A',
+    accent: '#1D6FA5',
+    accentSoft: '#D7EAF5',
+    panel: '#FFFFFF',
+    border: '#C9DBE6',
+  },
+}
+
+export const LAYOUTS = {
+  classic: { id: 'classic', label: 'Classic' },
+  compact: { id: 'compact', label: 'Compact' },
+  banner: { id: 'banner', label: 'Banner' },
+}
