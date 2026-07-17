@@ -1,18 +1,18 @@
 <div align="center">
 
-  ## Pastel CSS Animation Collection
-
+  ## Forest CSS Animation Collection
+  
   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 
   ---
-  
-  <img width="1609" height="923" alt="image" src="https://github.com/user-attachments/assets/f70558dd-5ada-46bc-9245-5f83a8d78627" />
+
+  <img width="1669" height="910" alt="image" src="https://github.com/user-attachments/assets/bb254bfe-4811-421b-a481-4ec617b149a8" />
+  <img width="1347" height="834" alt="image" src="https://github.com/user-attachments/assets/7faf33ae-0fca-4f57-9b92-3bdeeaab9914" />
 
 </div>
 
-### A single-page collection of pastel-themed CSS animations. Each animation has its own card with:
-
+### A single-page collection of forest-themed CSS animations. Each animation has its own card with:
 - a live preview
 - the animation’s CSS code
 - a **Copy CSS** button so you can paste it into your own project
@@ -21,8 +21,8 @@
 
 ### ✨ Features
 
-- **Animated pastel “waves” background** (purple/green/blue)
-- **20+ animation cards** (each with a distinct pastel animation)
+- **Animated forest “waves” background** (greens/browns/golds)
+- **20+ animation cards** (each with a distinct forest-themed animation)
 - **Copy to clipboard** per card (copies that animation’s CSS snippet)
 - **Typography**:
   - Headings: **Overpass Mono**
@@ -40,7 +40,7 @@ git clone <repo-url>
 
 2. Navigate to the folder:
 ```bash
-cd Pastel-CSS-Animation-Collection
+cd Forest-Css-Animation-Collection
 ```
 
 3. Open `index.html` in your browser.
