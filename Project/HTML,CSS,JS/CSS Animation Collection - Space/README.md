@@ -60,6 +60,6 @@ Click **Copy CSS** on any card. The button copies the CSS snippet for that anima
 
 ---
 
-### Contributing
+### 🤝 Contributing
 
 Contributions are welcome! You are free to improve the existing animations and even add more animations to the collection, as well as modify the site layout, etc.
