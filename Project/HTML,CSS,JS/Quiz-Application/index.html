@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Quiz Application</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="quiz-card intro-card" id="startScreen">
+        <p class="tag">Web Dev Challenge</p>
+        <h1>Interactive Quiz App</h1>
+        <p>
+          Challenge yourself with a timed quiz covering HTML, CSS, and JavaScript.
+          Answer quickly, track your score, and see your final performance summary.
+        </p>
+        <button id="startBtn">Start Quiz</button>
+      </section>
+
+      <section class="quiz-card hidden" id="quizScreen">
+        <div class="quiz-header">
+          <div>
+            <p class="eyebrow">Question <span id="questionNumber">1</span>/30</p>
+            <h2 id="questionText">Question text</h2>
+          </div>
+          <div class="timer" id="timerDisplay">15s</div>
+        </div>
+
+        <div class="progress-bar" aria-label="quiz progress">
+          <div id="progressFill"></div>
+        </div>
+
+        <div class="options" id="options"></div>
+
+        <div class="quiz-actions">
+          <button id="nextBtn" class="hidden">Next Question</button>
+        </div>
+      </section>
+
+      <section class="quiz-card hidden" id="resultScreen">
+        <p class="tag">Results</p>
+        <h2>Quiz Complete</h2>
+        <div class="result-score" id="scoreDisplay">0/5</div>
+        <p id="resultMessage">You completed the quiz.</p>
+        <div class="result-summary" id="resultSummary"></div>
+        <button id="restartBtn">Play Again</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
